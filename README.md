@@ -40,7 +40,7 @@ Clone the repo and run the imglab tool for training images (Make sure imglab is 
 
     imglab -c training.xml sample/selfImages/test_feature_Defect1_Rej/training
 
-Move the generated training.xml to the sample/selfImages/test_feature_Defect1_Rej/training directory.
+Move the generated training.xml to the sample/selfImages/test_feature_Defect1_Rej/training directory. An existing training.xml file is included as part of this repo which can be overwritten.
 
 ### Step 3 - Load the XML database for annonating each image
 
