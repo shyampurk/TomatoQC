@@ -80,7 +80,7 @@ There are two stages of running this program.
   
 ### Object Detector
 
-The [train_obj_detector_custom.py](code/train_obj_detector_custom.py) is the python script modified from the original Dlib objection sample code. It takes two parameters/arguments as input
+The [train_obj_detector_custom.py](code/train_obj_detector_custom.py) is the python script modified from the original Dlib object detection sample code. It takes two parameters/arguments as input
 
 1) the path where its own data is stored. (path to own data)
 
@@ -102,9 +102,36 @@ test_simple_object_detector( ) – This function runs detector.svm file against 
 
 simple_object_detector( ) - This function represents sliding window histogram-of-oriented-gradients based object detector. It is the final detector (detector.svm) which is used against real world images to detect the object bounds, in this case the tomatoes.
 
+<console out>
+    
+<UI out>
+   
+
+### Shape Detector
+
+[train_shape_detector_custom.py](code/train_shape_detector_custom.py) is the python script modified from the original Dlib object detection sample code. It takes the same two parameters/arguments as inputs.
+
+1) the path where its own data is stored. (path to own data)
+
+2) the path where the client’s data is stored.  (path to client data)
+
+The command to execute this script is
+
+        python train_shape_detector_custom.py <path to own data> <path to client data>
+
+The concept behind detecting shape is HOG filter (Histogram of oriented gradients). It counts the occurrence of gradient orientation in localised portion of images. Images are further divided into small connected regions called cells and for pixels within each cell, histogram of gradient is compiled. Classifier detects the objects through sliding window and if there is any large probability observed in sliding window, it will record the bounding box of window. These will be highlighted with green colour polygon shape.
+
+This script will call the following Dlib APIs
+
+train_shape_predictor() - Uses Dlib’s shape_predictor_trainer to train a shape predictor based on the labelled images in the XML file training.xml and the provided options. This function assumes the file training.xml is in the XML format produced by imglab tool. The trained shape predictor is serialized to the file detector.dat.
+
+test_shape_predictor() - This function tests the predictor(detector.dat) against the dataset and returns the mean average error of the detector. This error denotes the average distance between object output given by detector.dat and where it should be according to truth data.
+
+shape predictor() - It is a tool that takes in detector.dat file and outputs a set of point locations that defines the defect of the object. This function is expected to show the defected area of tomatoes.
 
 
-
-
-
-
+<console out>
+    
+<UI out>
+    
+    
