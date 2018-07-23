@@ -54,11 +54,11 @@ The previous imglab command will open up a UI and the we can mark 14 annotations
 
 When the image is loaded, you can press shift and right key to make a blue coloured rectangle box. Inside the box you can lable the parts which have defects. To mark the partitions, right click on mouse and select Add 00.
 
-<image>
+<img src="screenshots/tomato-mark-points.png" width="600">
 
 In the similar way mark other 13 points.
 
-<image>
+<img src="screenshots/tomato-surface-labels.png" width="600">
 
 Do it for rest of the images and finally go to file->save. The xml file will get updated.
 
@@ -102,9 +102,9 @@ test_simple_object_detector( ) – This function runs detector.svm file against 
 
 simple_object_detector( ) - This function represents sliding window histogram-of-oriented-gradients based object detector. It is the final detector (detector.svm) which is used against real world images to detect the object bounds, in this case the tomatoes.
 
-<console out>
+<img src="screenshots/obj-detector-console.png" width="600">
     
-<UI out>
+<img src="screenshots/obj-detector-ui.png" width="600">
    
 
 ### Shape Detector
@@ -130,8 +130,8 @@ test_shape_predictor() - This function tests the predictor(detector.dat) against
 shape predictor() - It is a tool that takes in detector.dat file and outputs a set of point locations that defines the defect of the object. This function is expected to show the defected area of tomatoes.
 
 
-<console out>
+<img src="screenshots/shape-detector-console.png" width="600">
     
-<UI out>
+<img src="screenshots/shape-detector-ui.png" width="600">
     
     
