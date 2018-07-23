@@ -102,7 +102,7 @@ test_simple_object_detector( ) – This function runs detector.svm file against 
 
 simple_object_detector( ) - This function represents sliding window histogram-of-oriented-gradients based object detector. It is the final detector (detector.svm) which is used against real world images to detect the object bounds, in this case the tomatoes.
 
-<img src="screenshots/obj-detector-console.png" width="600">
+<img src="screenshots/obj-det-con.png" width="600">
     
 <img src="screenshots/obj-detector-ui.png" width="600">
    
@@ -130,7 +130,7 @@ test_shape_predictor() - This function tests the predictor(detector.dat) against
 shape predictor() - It is a tool that takes in detector.dat file and outputs a set of point locations that defines the defect of the object. This function is expected to show the defected area of tomatoes.
 
 
-<img src="screenshots/shape-detector-console.png" width="600">
+<img src="screenshots/shape-det-con.png" width="600">
     
 <img src="screenshots/shape-detector-ui.png" width="600">
     
