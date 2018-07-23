@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+ <name>
+  Tomato Test
+ </name>
+ <comment/>
+ <images>
+  <image file="IMG_1957.JPG">
+   <box height="838" left="274" top="377" width="1099">
+    <part name="00" x="950" y="524"/>
+    <part name="01" x="954" y="564"/>
+    <part name="02" x="1039" y="605"/>
+    <part name="03" x="1013" y="531"/>
+    <part name="04" x="994" y="524"/>
+    <part name="05" x="950" y="524"/>
+    <part name="06" x="954" y="564"/>
+    <part name="07" x="1039" y="605"/>
+    <part name="08" x="1013" y="531"/>
+    <part name="09" x="994" y="524"/>
+    <part name="10" x="956" y="669"/>
+    <part name="11" x="965" y="719"/>
+    <part name="12" x="1004" y="770"/>
+    <part name="13" x="1044" y="720"/>
+    <part name="14" x="996" y="665"/>
+    <part name="15" x="989" y="671"/>
+   </box>
+  </image>
+  <image file="IMG_1958.JPG">
+   <box height="871" left="448" top="391" width="888">
+    <part name="00" x="798" y="500"/>
+    <part name="01" x="812" y="568"/>
+    <part name="02" x="912" y="518"/>
+    <part name="03" x="866" y="483"/>
+    <part name="04" x="798" y="500"/>
+    <part name="05" x="812" y="568"/>
+    <part name="06" x="912" y="518"/>
+    <part name="07" x="866" y="483"/>
+    <part name="08" x="956" y="542"/>
+    <part name="09" x="960" y="612"/>
+    <part name="10" x="1031" y="601"/>
+    <part name="11" x="1040" y="542"/>
+    <part name="12" x="998" y="540"/>
+   </box>
+  </image>
+  <image file="IMG_1959.JPG">
+   <box height="847" left="656" top="371" width="1046">
+    <part name="00" x="792" y="652"/>
+    <part name="01" x="796" y="728"/>
+    <part name="02" x="890" y="706"/>
+    <part name="03" x="902" y="647"/>
+    <part name="04" x="834" y="614"/>
+    <part name="05" x="792" y="652"/>
+    <part name="06" x="796" y="728"/>
+    <part name="07" x="890" y="706"/>
+    <part name="08" x="902" y="647"/>
+    <part name="09" x="834" y="614"/>
+    <part name="10" x="945" y="559"/>
+    <part name="11" x="972" y="630"/>
+    <part name="12" x="1048" y="594"/>
+    <part name="13" x="1017" y="548"/>
+    <part name="14" x="978" y="538"/>
+   </box>
+  </image>
+  <image file="IMG_1960.JPG">
+   <box height="199" left="264" top="157" width="244">
+    <part name="00" x="294" y="240"/>
+    <part name="01" x="297" y="261"/>
+    <part name="02" x="324" y="265"/>
+    <part name="03" x="317" y="241"/>
+    <part name="04" x="299" y="235"/>
+    <part name="05" x="294" y="240"/>
+    <part name="06" x="297" y="261"/>
+    <part name="07" x="324" y="265"/>
+    <part name="08" x="317" y="241"/>
+    <part name="09" x="299" y="235"/>
+    <part name="10" x="319" y="208"/>
+    <part name="11" x="328" y="224"/>
+    <part name="12" x="342" y="227"/>
+    <part name="13" x="340" y="212"/>
+    <part name="14" x="337" y="206"/>
+   </box>
+  </image>
+  <image file="IMG_1961.JPG">
+   <box height="309" left="206" top="87" width="386">
+    <part name="00" x="309" y="168"/>
+    <part name="01" x="344" y="164"/>
+    <part name="02" x="348" y="179"/>
+    <part name="03" x="344" y="195"/>
+    <part name="04" x="313" y="197"/>
+    <part name="05" x="310" y="185"/>
+    <part name="06" x="309" y="168"/>
+    <part name="07" x="344" y="164"/>
+    <part name="08" x="348" y="179"/>
+    <part name="09" x="344" y="195"/>
+    <part name="10" x="313" y="197"/>
+    <part name="11" x="310" y="185"/>
+    <part name="12" x="317" y="215"/>
+    <part name="13" x="313" y="242"/>
+    <part name="14" x="337" y="273"/>
+    <part name="15" x="367" y="233"/>
+    <part name="16" x="352" y="214"/>
+    <part name="17" x="339" y="208"/>
+   </box>
+  </image>
+  <image file="IMG_1962.JPG">
+   <box height="295" left="193" top="115" width="279">
+    <part name="00" x="286" y="220"/>
+    <part name="01" x="318" y="220"/>
+    <part name="02" x="328" y="237"/>
+    <part name="03" x="320" y="252"/>
+    <part name="04" x="290" y="253"/>
+    <part name="05" x="288" y="241"/>
+    <part name="06" x="286" y="220"/>
+    <part name="07" x="318" y="220"/>
+    <part name="08" x="328" y="237"/>
+    <part name="09" x="320" y="252"/>
+    <part name="10" x="290" y="253"/>
+    <part name="11" x="288" y="241"/>
+    <part name="12" x="344" y="242"/>
+    <part name="13" x="346" y="263"/>
+    <part name="14" x="359" y="289"/>
+    <part name="15" x="385" y="289"/>
+    <part name="16" x="393" y="267"/>
+    <part name="17" x="384" y="253"/>
+    <part name="18" x="372" y="237"/>
+   </box>
+  </image>
+  <image file="IMG_1963.JPG">
+   <box height="306" left="173" top="94" width="373">
+    <part name="00" x="382" y="199"/>
+    <part name="01" x="409" y="199"/>
+    <part name="02" x="419" y="211"/>
+    <part name="03" x="426" y="232"/>
+    <part name="04" x="400" y="233"/>
+    <part name="05" x="388" y="228"/>
+    <part name="06" x="387" y="219"/>
+    <part name="07" x="382" y="199"/>
+    <part name="08" x="409" y="199"/>
+    <part name="09" x="419" y="211"/>
+    <part name="10" x="426" y="232"/>
+    <part name="11" x="400" y="233"/>
+    <part name="12" x="388" y="228"/>
+    <part name="13" x="387" y="219"/>
+    <part name="14" x="438" y="194"/>
+    <part name="15" x="457" y="194"/>
+    <part name="16" x="470" y="206"/>
+    <part name="17" x="473" y="228"/>
+    <part name="18" x="445" y="220"/>
+    <part name="19" x="440" y="219"/>
+   </box>
+  </image>
+  <image file="IMG_1964.JPG">
+   <box height="330" left="215" top="112" width="270">
+    <part name="00" x="367" y="172"/>
+    <part name="01" x="393" y="173"/>
+    <part name="02" x="413" y="201"/>
+    <part name="03" x="398" y="215"/>
+    <part name="04" x="373" y="207"/>
+    <part name="05" x="368" y="189"/>
+   </box>
+  </image>
+  <image file="IMG_1965.JPG">
+   <box height="247" left="115" top="85" width="364">
+    <part name="00" x="340" y="171"/>
+    <part name="01" x="373" y="175"/>
+    <part name="02" x="383" y="191"/>
+    <part name="03" x="380" y="216"/>
+    <part name="04" x="361" y="221"/>
+    <part name="05" x="344" y="206"/>
+    <part name="06" x="340" y="171"/>
+    <part name="07" x="373" y="175"/>
+    <part name="08" x="383" y="191"/>
+    <part name="09" x="380" y="216"/>
+    <part name="10" x="361" y="221"/>
+    <part name="11" x="344" y="206"/>
+    <part name="12" x="318" y="232"/>
+    <part name="13" x="342" y="235"/>
+    <part name="14" x="355" y="254"/>
+    <part name="15" x="340" y="266"/>
+    <part name="16" x="316" y="257"/>
+    <part name="17" x="316" y="253"/>
+   </box>
+  </image>
+  <image file="IMG_1966.JPG">
+   <box height="288" left="151" top="135" width="301">
+    <part name="00" x="228" y="263"/>
+    <part name="01" x="257" y="262"/>
+    <part name="02" x="275" y="274"/>
+    <part name="03" x="277" y="303"/>
+    <part name="04" x="242" y="309"/>
+    <part name="05" x="227" y="288"/>
+    <part name="06" x="228" y="292"/>
+    <part name="07" x="228" y="291"/>
+    <part name="08" x="230" y="291"/>
+    <part name="09" x="230" y="291"/>
+    <part name="10" x="228" y="263"/>
+    <part name="11" x="257" y="262"/>
+    <part name="12" x="275" y="274"/>
+    <part name="13" x="277" y="303"/>
+    <part name="14" x="242" y="309"/>
+    <part name="15" x="227" y="288"/>
+    <part name="16" x="228" y="292"/>
+    <part name="17" x="228" y="291"/>
+    <part name="18" x="230" y="291"/>
+    <part name="19" x="230" y="291"/>
+    <part name="20" x="200" y="306"/>
+    <part name="21" x="222" y="312"/>
+    <part name="22" x="230" y="331"/>
+    <part name="23" x="224" y="351"/>
+    <part name="24" x="215" y="342"/>
+   </box>
+  </image>
+ </images>
+</dataset>
