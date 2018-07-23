@@ -78,6 +78,31 @@ There are two stages of running this program.
 
 
   
+### Object Detector
+
+The [train_obj_detector_custom.py](code/train_obj_detector_custom.py) is the python script modified from the original Dlib objection sample code. It takes two parameters/arguments as input
+
+1) the path where its own data is stored. (path to own data)
+
+2) the path where the client’s data is stored.  (path to client data)
+
+The command to execute this script is
+
+        python train_obj_detector_custom.py <path to own data> <path to client data>
+
+The training.xml file was built through imglab is fed to detector.svm (which is created during the execution of the program). The detector file will be tested against its own data to train itself and check for the accuracy. If it works well, then train with more images to improve its efficiency for the final output.
+
+Then finally the client’s data is tested through detector.svm. The objects are detected when the images are converted to grey scale (through imread function) and the boundary is formed through pixel’s left, right, top, bottom positions and enclosed within a rectangle shape. The object detection is done through dlib libraries and the labelled images in xml file dataset. SVM file generated will further be used for shape detection in the next stage.
+
+This script will call the following Dlib APIs
+
+train_simple_object_detector() – It trains simple object detector based on labelled image image in XML file dataset training.xml. It returns trained object detector in svm file(detector.svm).
+
+test_simple_object_detector( ) – This function runs detector.svm file against 2 datasets – training.xml (known dataset) and testing.xml (unknown dataset). It returns the precision, average precision and accuracy of the detector.
+
+simple_object_detector( ) - This function represents sliding window histogram-of-oriented-gradients based object detector. It is the final detector (detector.svm) which is used against real world images to detect the object bounds, in this case the tomatoes.
+
+
 
 
 
