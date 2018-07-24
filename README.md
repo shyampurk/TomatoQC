@@ -1,7 +1,7 @@
 # TomatoQC (Quality Check)
 A concept application for visual inspection of vegetables(tomatoes)  using Machine Learning via the DLib machine learning toolkit.
 
-This code repository is part of this blog post that examines the possibility of using the Dlib's object detection and recognition
+This code repository is part of [this blog post](http://radiostud.io/machine-learning-automated-food-quality-inspection/) that examines the possibility of using the Dlib's object detection and recognition
 capabalities to scan tomatoes for performing automated visual inspection of their quality.
 
 ## Prerequisites
